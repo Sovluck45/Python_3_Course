@@ -1,7 +1,10 @@
 import csv
+import os
 import re
+from chardet import detect
 
 text_list = ['info_1.txt', 'info_2.txt', 'info_3.txt']
+current_directory = os.path.dirname(os.path.abspath(__file__))
 
 
 def get_data():
@@ -12,7 +15,10 @@ def get_data():
     test_list = []
     main_data = [["Изготовитель системы", "Название ОС", "Код продукта", "Тип системы"]]
     for i in text_list:
-        with open(f"{i}", "r") as info_file:
+        with open(f"{i}", "rb") as info_:
+            info_content = info_.read()
+        encoded_content = detect(info_content)["encoding"]
+        with open(f"{i}", "r", encoding=encoded_content) as info_file:
             read_info = info_file.readlines()
             for line in read_info:
                 test_list += re.findall(r'^(\w[^:]+).*:\s+([^:\n]+)\s*$', line)
@@ -28,11 +34,13 @@ def get_data():
 
 def write_to_csv(filepath):
     info_data = get_data()
+    directory, filename = os.path.split(filepath)
+    os.makedirs(directory, exist_ok=True)
+    filepath = os.path.join(current_directory, directory, filename)
     with open(filepath, "w", encoding="utf-8") as csv_file:
         csv_writer = csv.writer(csv_file, delimiter=" ", quoting=csv.QUOTE_NONNUMERIC)
         for line in info_data:
             csv_writer.writerow(line)
 
 
-write_to_csv(input("Введите полный путь к файлу: "))
-# Функция write_to_csv работает только, если прописать полный путь к файлу, в остальном всё работает
+write_to_csv("csv_folder/file.csv")
