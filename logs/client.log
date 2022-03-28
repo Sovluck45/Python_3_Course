@@ -1,0 +1,399 @@
+2022-03-28 22:32:35,990 - INFO - client - Происходит соединение с сервером
+Порт сервера: 7777
+Адрес сервера: 127.0.0.1
+2022-03-28 22:32:35,999 - INFO - client - Происходит соединение с сервером
+Порт сервера: 7777
+Адрес сервера: 127.0.0.1
+2022-03-28 22:32:35,999 - INFO - client - Запущен клиент с параметрами:
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+Режим работы: send
+2022-03-28 22:32:36,000 - DEBUG - functions - Готово к отправке presence для пользователя User
+2022-03-28 22:32:36,008 - INFO - client - Запущен клиент с параметрами:
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+Режим работы: listen
+2022-03-28 22:32:36,009 - DEBUG - functions - Готово к отправке presence для пользователя User
+2022-03-28 22:32:36,020 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:32:36 2022
+Имя функции: jim_presence
+Аргументы функции: {'action': 'presence', 'time': 1648495956.0005903, 'User': {'name': 'User'}}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:32:36,021 - INFO - functions - Отправлено сообщение: b'{"action": "presence", "time": 1648495956.0005903, "User": {"name": "User"}}'
+2022-03-28 22:32:36,021 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:32:36 2022
+Имя функции: send_message
+Аргументы функции: None
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:32:36,021 - DEBUG - functions - Готово к отправке presence для пользователя User
+2022-03-28 22:32:36,022 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:32:36 2022
+Имя функции: jim_presence
+Аргументы функции: {'action': 'presence', 'time': 1648495956.0215693, 'User': {'name': 'User'}}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:32:36,022 - INFO - client - Отправлено сообщение:
+{'action': 'presence', 'time': 1648495956.0215693, 'User': {'name': 'User'}}
+2022-03-28 22:32:36,028 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:32:36 2022
+Имя функции: jim_presence
+Аргументы функции: {'action': 'presence', 'time': 1648495956.0095663, 'User': {'name': 'User'}}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:32:36,029 - INFO - functions - Отправлено сообщение: b'{"action": "presence", "time": 1648495956.0095663, "User": {"name": "User"}}'
+2022-03-28 22:32:36,029 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:32:36 2022
+Имя функции: send_message
+Аргументы функции: None
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:32:36,029 - DEBUG - functions - Готово к отправке presence для пользователя User
+2022-03-28 22:32:36,030 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:32:36 2022
+Имя функции: jim_presence
+Аргументы функции: {'action': 'presence', 'time': 1648495956.02955, 'User': {'name': 'User'}}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:32:36,030 - INFO - client - Отправлено сообщение:
+{'action': 'presence', 'time': 1648495956.02955, 'User': {'name': 'User'}}
+2022-03-28 22:32:37,029 - INFO - functions - Отправлено сообщение: b'{"response": 200}'
+2022-03-28 22:32:37,030 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:32:37 2022
+Имя функции: get_message
+Аргументы функции: {'response': 200}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:32:37,030 - DEBUG - functions - Проверка сообщения: {'response': 200}
+2022-03-28 22:32:37,030 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:32:37 2022
+Имя функции: check_response
+Аргументы функции: 200: OK
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:32:37,031 - INFO - client - Установлено соединение с сервером
+Ответ сервера: 200: OK
+2022-03-28 22:32:37,032 - INFO - functions - Отправлено сообщение: b'{"response": 200}'
+2022-03-28 22:32:37,032 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:32:37 2022
+Имя функции: get_message
+Аргументы функции: {'response': 200}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:32:37,032 - DEBUG - functions - Проверка сообщения: {'response': 200}
+2022-03-28 22:32:37,033 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:32:37 2022
+Имя функции: check_response
+Аргументы функции: 200: OK
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:32:37,033 - INFO - client - Установлено соединение с сервером
+Ответ сервера: 200: OK
+2022-03-28 22:32:42,020 - DEBUG - functions - Сформировано сообщение формата JIM: {'action': 'message', 'time': 1648495962.020262, 'name': 'User', 'message_text': 'hello'}
+2022-03-28 22:32:42,021 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:32:42 2022
+Имя функции: create_msg
+Аргументы функции: {'action': 'message', 'time': 1648495962.020262, 'name': 'User', 'message_text': 'hello'}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:32:42,021 - INFO - functions - Отправлено сообщение: b'{"action": "message", "time": 1648495962.020262, "name": "User", "message_text": "hello"}'
+2022-03-28 22:32:42,022 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:32:42 2022
+Имя функции: send_message
+Аргументы функции: None
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:33:07,028 - ERROR - client - Ошибка соединения с сервером: 127.0.0.1
+2022-03-28 22:36:36,919 - INFO - client - Происходит соединение с сервером
+Порт сервера: 7777
+Адрес сервера: 127.0.0.1
+2022-03-28 22:36:36,922 - INFO - client - Происходит соединение с сервером
+Порт сервера: 7777
+Адрес сервера: 127.0.0.1
+2022-03-28 22:36:36,927 - INFO - client - Запущен клиент с параметрами:
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+Режим работы: send
+2022-03-28 22:36:36,928 - DEBUG - functions - Готово к отправке presence для пользователя User
+2022-03-28 22:36:36,930 - INFO - client - Запущен клиент с параметрами:
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+Режим работы: listen
+2022-03-28 22:36:36,931 - DEBUG - functions - Готово к отправке presence для пользователя User
+2022-03-28 22:36:36,948 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:36:36 2022
+Имя функции: jim_presence
+Аргументы функции: {'action': 'presence', 'time': 1648496196.9281485, 'User': {'name': 'User'}}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:36:36,948 - INFO - functions - Отправлено сообщение: b'{"action": "presence", "time": 1648496196.9281485, "User": {"name": "User"}}'
+2022-03-28 22:36:36,949 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:36:36 2022
+Имя функции: send_message
+Аргументы функции: None
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:36:36,949 - DEBUG - functions - Готово к отправке presence для пользователя User
+2022-03-28 22:36:36,950 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:36:36 2022
+Имя функции: jim_presence
+Аргументы функции: {'action': 'presence', 'time': 1648496196.949128, 'User': {'name': 'User'}}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:36:36,950 - INFO - client - Отправлено сообщение:
+{'action': 'presence', 'time': 1648496196.949128, 'User': {'name': 'User'}}
+2022-03-28 22:36:36,950 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:36:36 2022
+Имя функции: jim_presence
+Аргументы функции: {'action': 'presence', 'time': 1648496196.9311755, 'User': {'name': 'User'}}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:36:36,951 - INFO - functions - Отправлено сообщение: b'{"action": "presence", "time": 1648496196.9311755, "User": {"name": "User"}}'
+2022-03-28 22:36:36,951 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:36:36 2022
+Имя функции: send_message
+Аргументы функции: None
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:36:36,951 - DEBUG - functions - Готово к отправке presence для пользователя User
+2022-03-28 22:36:36,952 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:36:36 2022
+Имя функции: jim_presence
+Аргументы функции: {'action': 'presence', 'time': 1648496196.951157, 'User': {'name': 'User'}}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:36:36,952 - INFO - client - Отправлено сообщение:
+{'action': 'presence', 'time': 1648496196.951157, 'User': {'name': 'User'}}
+2022-03-28 22:36:37,952 - INFO - functions - Отправлено сообщение: b'{"response": 200}'
+2022-03-28 22:36:37,953 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:36:37 2022
+Имя функции: get_message
+Аргументы функции: {'response': 200}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:36:37,953 - DEBUG - functions - Проверка сообщения: {'response': 200}
+2022-03-28 22:36:37,954 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:36:37 2022
+Имя функции: check_response
+Аргументы функции: 200: OK
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:36:37,954 - INFO - client - Установлено соединение с сервером
+Ответ сервера: 200: OK
+2022-03-28 22:36:37,955 - INFO - functions - Отправлено сообщение: b'{"response": 200}'
+2022-03-28 22:36:37,956 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:36:37 2022
+Имя функции: get_message
+Аргументы функции: {'response': 200}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:36:37,956 - DEBUG - functions - Проверка сообщения: {'response': 200}
+2022-03-28 22:36:37,957 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:36:37 2022
+Имя функции: check_response
+Аргументы функции: 200: OK
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:36:37,957 - INFO - client - Установлено соединение с сервером
+Ответ сервера: 200: OK
+2022-03-28 22:37:01,219 - DEBUG - functions - Сформировано сообщение формата JIM: {'action': 'message', 'time': 1648496221.2199862, 'name': 'User', 'message_text': 'hello world'}
+2022-03-28 22:37:01,219 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:37:01 2022
+Имя функции: create_msg
+Аргументы функции: {'action': 'message', 'time': 1648496221.2199862, 'name': 'User', 'message_text': 'hello world'}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:37:01,221 - INFO - functions - Отправлено сообщение: b'{"action": "message", "time": 1648496221.2199862, "name": "User", "message_text": "hello world"}'
+2022-03-28 22:37:01,221 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:37:01 2022
+Имя функции: send_message
+Аргументы функции: None
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:45:58,843 - INFO - client - Происходит соединение с сервером
+Порт сервера: 7777
+Адрес сервера: 127.0.0.1
+2022-03-28 22:45:58,849 - INFO - client - Происходит соединение с сервером
+Порт сервера: 7777
+Адрес сервера: 127.0.0.1
+2022-03-28 22:45:58,852 - INFO - client - Запущен клиент с параметрами:
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+Режим работы: send
+2022-03-28 22:45:58,853 - DEBUG - functions - Готово к отправке presence для пользователя User
+2022-03-28 22:45:58,858 - INFO - client - Запущен клиент с параметрами:
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+Режим работы: listen
+2022-03-28 22:45:58,859 - DEBUG - functions - Готово к отправке presence для пользователя User
+2022-03-28 22:45:58,873 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:45:58 2022
+Имя функции: jim_presence
+Аргументы функции: {'action': 'presence', 'time': 1648496758.8533967, 'user': {'name': 'User'}}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:45:58,873 - INFO - functions - Отправлено сообщение: b'{"action": "presence", "time": 1648496758.8533967, "user": {"name": "User"}}'
+2022-03-28 22:45:58,873 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:45:58 2022
+Имя функции: send_message
+Аргументы функции: None
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:45:58,874 - DEBUG - functions - Готово к отправке presence для пользователя User
+2022-03-28 22:45:58,874 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:45:58 2022
+Имя функции: jim_presence
+Аргументы функции: {'action': 'presence', 'time': 1648496758.8743744, 'user': {'name': 'User'}}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:45:58,874 - INFO - client - Отправлено сообщение:
+{'action': 'presence', 'time': 1648496758.8743744, 'user': {'name': 'User'}}
+2022-03-28 22:45:58,878 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:45:58 2022
+Имя функции: jim_presence
+Аргументы функции: {'action': 'presence', 'time': 1648496758.8594167, 'user': {'name': 'User'}}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:45:58,878 - INFO - functions - Отправлено сообщение: b'{"action": "presence", "time": 1648496758.8594167, "user": {"name": "User"}}'
+2022-03-28 22:45:58,879 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:45:58 2022
+Имя функции: send_message
+Аргументы функции: None
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:45:58,879 - DEBUG - functions - Готово к отправке presence для пользователя User
+2022-03-28 22:45:58,880 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:45:58 2022
+Имя функции: jim_presence
+Аргументы функции: {'action': 'presence', 'time': 1648496758.879361, 'user': {'name': 'User'}}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:45:58,880 - INFO - client - Отправлено сообщение:
+{'action': 'presence', 'time': 1648496758.879361, 'user': {'name': 'User'}}
+2022-03-28 22:45:59,886 - INFO - functions - Отправлено сообщение: b'{"response": 200}'
+2022-03-28 22:45:59,887 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:45:59 2022
+Имя функции: get_message
+Аргументы функции: {'response': 200}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:45:59,887 - DEBUG - functions - Проверка сообщения: {'response': 200}
+2022-03-28 22:45:59,888 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:45:59 2022
+Имя функции: check_response
+Аргументы функции: 200: OK
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:45:59,888 - INFO - client - Установлено соединение с сервером
+Ответ сервера: 200: OK
+2022-03-28 22:45:59,889 - INFO - functions - Отправлено сообщение: b'{"response": 200}'
+2022-03-28 22:45:59,890 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:45:59 2022
+Имя функции: get_message
+Аргументы функции: {'response': 200}
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:45:59,890 - DEBUG - functions - Проверка сообщения: {'response': 200}
+2022-03-28 22:45:59,891 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:45:59 2022
+Имя функции: check_response
+Аргументы функции: 200: OK
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:45:59,891 - INFO - client - Установлено соединение с сервером
+Ответ сервера: 200: OK
+2022-03-28 22:46:09,841 - DEBUG - functions - Сформировано сообщение формата JIM: {'action': 'message', 'time': 1648496769.8410234, 'name': 'User', 'message_text': 'hello'}
+2022-03-28 22:46:09,841 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:46:09 2022
+Имя функции: create_msg
+Аргументы функции: {'action': 'message', 'time': 1648496769.8410234, 'name': 'User', 'message_text': 'hello'}
+Функция вызвана из функции: user_interaction
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:46:14,564 - INFO - functions - Отправлено сообщение: b'{"action": "exit", "time": 1648496774.5649693, "name": "User"}'
+2022-03-28 22:46:14,565 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:46:14 2022
+Имя функции: send_message
+Аргументы функции: None
+Функция вызвана из функции: user_interaction
+Функция вызвана из модуля: server_content.functions
+
+2022-03-28 22:46:15,583 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Mon Mar 28 22:46:15 2022
+Имя функции: user_interaction
+Аргументы функции: None
+Функция вызвана из функции: client_connect_func
+Функция вызвана из модуля: server_content.functions
+
