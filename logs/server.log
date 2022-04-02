@@ -1,0 +1,64 @@
+2022-04-02 19:54:01,678 - DEBUG - server - Происходит соединение с портом 7777
+2022-04-02 19:54:01,694 - INFO - server - Установлено соединение с клиентом: ('127.0.0.1', 62567)
+2022-04-02 19:54:02,220 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Sat Apr  2 19:54:02 2022
+Имя функции: get_message
+Аргументы функции: (<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62567)>,), {}
+Функция вызвана из функции: server_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-04-02 19:54:02,221 - DEBUG - functions - Проверка сообщения от клиента: user2
+2022-04-02 19:54:02,223 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Sat Apr  2 19:54:02 2022
+Имя функции: send_message
+Аргументы функции: (<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62567)>, {'response': 200}), {}
+Функция вызвана из функции: client_message
+Функция вызвана из модуля: server_content.functions
+
+2022-04-02 19:54:02,223 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Sat Apr  2 19:54:02 2022
+Имя функции: client_message
+Аргументы функции: ({'action': 'presence', 'time': 1648918441.6947594, 'user': {'account_name': 'user2'}}, [], <socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62567)>, [<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62567)>], {'user2': <socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62567)>}), {}
+Функция вызвана из функции: server_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-04-02 19:54:02,223 - INFO - server - Сообщение от ('127.0.0.1', 62567) принято
+2022-04-02 19:54:02,223 - INFO - server - Установлено соединение с клиентом: ('127.0.0.1', 62566)
+2022-04-02 19:54:02,224 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Sat Apr  2 19:54:02 2022
+Имя функции: get_message
+Аргументы функции: (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62566)>,), {}
+Функция вызвана из функции: server_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-04-02 19:54:02,224 - DEBUG - functions - Проверка сообщения от клиента: user1
+2022-04-02 19:54:02,225 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Sat Apr  2 19:54:02 2022
+Имя функции: send_message
+Аргументы функции: (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62566)>, {'response': 200}), {}
+Функция вызвана из функции: client_message
+Функция вызвана из модуля: server_content.functions
+
+2022-04-02 19:54:02,226 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Sat Apr  2 19:54:02 2022
+Имя функции: client_message
+Аргументы функции: ({'action': 'presence', 'time': 1648918442.1993134, 'user': {'account_name': 'user1'}}, [], <socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62566)>, [<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62567)>, <socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62566)>], {'user2': <socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62567)>, 'user1': <socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62566)>}), {}
+Функция вызвана из функции: server_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-04-02 19:54:02,226 - INFO - server - Сообщение от ('127.0.0.1', 62566) принято
+2022-04-02 19:54:25,061 - DEBUG - decorator_log - 
+Отчёт о вызове функции:
+Время вызова функции: Sat Apr  2 19:54:25 2022
+Имя функции: get_message
+Аргументы функции: (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62566)>,), {}
+Функция вызвана из функции: server_connect_func
+Функция вызвана из модуля: server_content.functions
+
+2022-04-02 19:54:25,061 - INFO - server - ('127.0.0.1', 62566) отключился от сервера
